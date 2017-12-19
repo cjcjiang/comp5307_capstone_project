@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+
+<h1>API_SERVER</h1>
+<h2>COMP5703_BLOCKCHAIN_IOT_GROUP_3</h2>
+<div>
+    <table style="width:100%">
+        <tr>
+            <th>Method</th>
+            <th>URL</th>
+            <th>Function</th>
+        </tr>
+        <tr>
+            <td>get</td>
+            <td>/</td>
+            <td>Show homepage.</td>
+        </tr>
+        <tr>
+            <td>get</td>
+            <td>/user</td>
+            <td>Show user profile.</td>
+        </tr>
+        <tr>
+            <td>post</td>
+            <td>/user/signup</td>
+            <td>Sign up with email and password.</td>
+        </tr>
+        <tr>
+            <td>post</td>
+            <td>/user/login</td>
+            <td>Login with email and password.</td>
+        </tr>
+        <tr>
+            <td>post</td>
+            <td>/blockchain/create_new_asset </td>
+            <td>Create new asset.</td>
+        </tr>
+        <tr>
+            <td>post</td>
+            <td>/blockchain/transfer_asset</td>
+            <td>Transfer the asset from the seller to the buyer.</td>
+        </tr>
+        <tr>
+            <td>post</td>
+            <td>/blockchain/transaction_check</td>
+            <td>Check if the user is the owner of the transaction.</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
